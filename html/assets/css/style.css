@@ -282,7 +282,7 @@ textarea.form-control {height: auto;}
 [6. Header]
 */
 
-.header {background-color: transparent;left: 0;position: fixed;right: 0;top: 0;z-index: 1041;height: 60px;}
+.header {background-color: #ffbc35;left: 0;position: fixed;right: 0;top: 0;z-index: 1041;height: 60px;border-bottom: 1px solid #ffbc35;box-shadow:0 0 5px rgba(0, 0, 0, 0.3);}
 .header .header-left {float: left;height: 60px;padding: 0 20px;position: relative;text-align: center;width: 220px;z-index: 1;}
 .logo {display: block;line-height: 60px;}
 .header .navbar-nav .badge {position: absolute;right: 7px;top: 4px;}
@@ -308,7 +308,7 @@ textarea.form-control {height: auto;}
 [7. Sidebar]
 */
 
-.sidebar{top:60px;width:240px;z-index:1041;background-color: #2a2a4d;bottom:0;margin-top:0px;position:fixed;left:0;-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; transition: all 0.4s ease;border-right: 1px solid #2d2d2d;}
+.sidebar{top:60px;width:220px;z-index:1041;background-color: #2d2d2d;bottom:0;margin-top:0px;position:fixed;left:0;-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; transition: all 0.4s ease;border-right: 1px solid #2d2d2d;}
 .sidebar-inner{height:100%;}
 .sidebar-menu ul {font-size: 14px;list-style-type: none;margin: 0;padding: 0;position:relative;}
 .sidebar-menu li a {color: #888;display: block;font-size: 14px;height: auto;line-height: 40px;min-height: 40px;padding: 0 20px;}
@@ -319,7 +319,7 @@ textarea.form-control {height: auto;}
 .sidebar-menu li.active a {color: #ffbc35;background-color: #1c1c1c;}
 .menu-title {color: #fff;font-size: 13px;font-weight: 500;line-height: 40px;min-height: 40px;padding: 0 20px;text-transform: uppercase;}
 .menu-title > i {float: right;line-height: 40px;}
-.sidebar-menu li.menu-title a {color: #ff9b44;display: inline-block;float: none;padding: 0;}
+.sidebar-menu li.menu-title a {color: #ff9b44;display: inline-block;float: right;padding: 0;}
 .sidebar-menu li.menu-title a.add-user-icon {background-color: #eee;border-radius: 24px;color: #bbb;line-height: 24px;min-height: 24px;width: 24px;text-align: center;margin-top: 6px;}
 .sidebar-menu li.menu-title a.add-user-icon:hover {background-color: #ffbc35;color:#fff;}
 .sidebar-menu li.menu-title a.add-user-icon i {font-size: 14px;margin-left: 0;margin-right: 0;}
@@ -385,7 +385,7 @@ textarea.form-control {height: auto;}
 */
 
 .page-wrapper {left: 0;margin-left: 220px;padding-top: 60px;position: relative;-webkit-transition: all 0.4s ease;-moz-transition: all 0.4s ease;transition: all 0.4s ease;}
-.page-wrapper > .content{padding:0px 0px 10px 0 !important;}
+.page-wrapper > .content{padding:30px;}
 
 /*------------------------------------------------------------------
 [9. Login]
@@ -486,110 +486,6 @@ textarea.form-control {height: auto;}
 .nav-tabs-justified > li > a:hover,
 .nav-tabs-justified > li > a:focus {border-bottom-color: #ddd;}
 .nav-tabs-justified.nav-tabs-solid > li > a {border-color: transparent;}
-
-
-
-
-
-
-
-
-
-
-
-/*------------------------------My style CSS----------------------------------------*/
-
-.np-prfl {
-  padding: 10px 10px 10px 10px !important;
-}
-.comp-title {
-  float: none !important;
-  color: #daba2a !important;
-}
-
-.pnlbrd {
-    border: 1px solid #daba2a;
- 
-}
-.bgbdy {
-     background: url("assets/img/logo/bgimg.png");
-}
-.panelcolor {
- background-color: #daba2a !important;   
-}
-.sidebarbclr, .sidebar-bg {
-    background-color: #2a2a4d !important;   
-}
-.sidebar .nav > li.active > a {
-     background-color: #daba2a !important;   
-}
-.panel-title {
-    font-size: 16px !important;
-}
-.tabcontent > thead > th, td{
-    text-align: center;
-    padding: 5px 20px !important;
-
-}
-.filteroptions  {
-    line-height: 30px;
-}
-#fltrdiv{
-  display: none;
-}
-.btnbg {
- 
-  border: 1px solid #f5f5f5;
-  background-color:  #daba2a !important;
-}
-.txtfltrclr {
- color:  #daba2a !important;
-}
-
-.pr-0 {
-    padding-right: 0 !important;
-}
-
-/*Margin 0 */
-.mr-0 {
-    margin: 0!important;
-}
-/*padding 0 */
-.pd-0 {
-    padding: 0 !important;
-}
-/*Margin 0 */
-/*.r-p-0 {
-    padding: 0 !important;
-}*/
-.fltrclr {
-    background-color: #ffffff;
-    border-bottom: 1px solid #daba2a;
-}
-.pd-n{
-    padding: 0 10px 0 20px;
-}
-.pd-tp {
-    padding: 10px 0 10px 0;
-}
-.fltrdiv {
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*------------------------------------------------------------------
 [14. Holidays]
@@ -775,7 +671,7 @@ transform-origin: left top;transition: 240ms;left: 12px;top: -8px;z-index: 1;col
 
 .action-icon {color: #777;font-size: 18px;padding: 0 10px;display:inline-block;}
 .table .dropdown-menu {font-size:12px;}
-.profile-widget {background-color: #2a2a4d;border: 1px solid #daba2a;border-radius: 4px;margin-bottom: 30px;padding: 20px;text-align: center;position:relative;overflow:hidden;}
+.profile-widget {background-color: #fff;border: 1px solid #e7e7e7;border-radius: 4px;margin-bottom: 30px;padding: 20px;text-align: center;position:relative;overflow:hidden;}
 .profile-widget .user-name > a {color: #333;}
 .dropdown.profile-action {position: absolute;right: 5px;text-align: right;top: 10px;}
 .profile-action .dropdown-toggle::after {display: none;}
@@ -1893,4 +1789,3 @@ blockquote p {font-style: italic;font-weight: 400;}
 	.profile-bg {height:180px;}
 	.error-box h1 {font-size: 50px;}
 }
-
