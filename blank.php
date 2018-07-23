@@ -54,85 +54,16 @@
                                 
                             </div>    --> 
                             <div class="brdrclr pd-0 mr-0"> </div>
-                            <div class="card-body pd-tp hghtauto" style="min-height: calc(100vh - 224px);  overflow-x: auto;">
-                                <div class="task-wrapper">
-                                    <div class="row  mt-3">
-                                        <div class="table-responsive">
-                                            <table class="table m-b-0 table table-hover table-bordered tabcontent">
-                                                <thead>
-                                                    <tr>
-                                                      <th><input type="checkbox" name="" id="checkall"></th>
-                                                      <th> Edit/Delete </th>
-                                                      <th> OrganizationID</th>
-                                                      <th>CompanyName</th>
-                                                      <th>CompanyLogo</th>
-                                                      <th>Address</th>
-                                                      <th>City</th>
-                                                      <th>State</th>
-                                                      <th>Country</th>
-                                                      <th>Services</th>
-                                                      <th>NTN#</th>
-                                                      <th>Phone#.</th>
-                                                      <th>OwnerName </th>
-                                                      <th>Email </th>
-                                                      <th>Password </th>
-                                                      <th>Mobile# </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr id="fltrdiv" class=" mt-2">
-                                                        <th > </th> <th> </th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                        <th><input class="form-control form-control-sm" type="text" /></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="" class="chckbx"></td>
-                                                        <td>
-                                                           <a href="#" class="text-muted" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-h f-s-14"></i></a>
-                                                            <div class="dropdown-menu dropdown-menu-right">
-                                                                <a class="dropdown-item" href="#."><i class="fa fa-eye m-r-5 "></i> View</a>
-                                                                <a class="dropdown-item" href="#."><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                                <a class="dropdown-item" href="#."><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                            </div>   
-                                                        </td>
-                                                        <td>1</td>
-                                                        <td>1</td>
-                                                        <td>1</td>
-                                                        <td>1</td>
-                                                        <td>Anna</td>
-                                                        <td>Pitt</td>
-                                                        <td>35</td>
-                                                        <td>New York</td>
-                                                         <td>USA</td>
-                                                        <td>Female</td>
-                                                        <td>Yes</td>
-                                                        <td>Yes</td>
-                                                        <td>Yes</td>
-                                                        <td>Yes</td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                           
+                            <div class="card-body pd-tp d-table w-100" style="min-height: calc(100vh - 224px);  overflow-x: auto;">
+                                    <div class="row h-100">
+                                        <div class="col-sm-12   my-auto  text-center">
+                                            <img src="assets/img/norec.png" class="img-responsive"> <br> 
+                                                     No Record Found
                                         </div>
-
-
-                                   
                                     </div>
 
-                                </div>
+
+                              
                             </div>
                             <div class="brdrclr pd-0 mr-0"> </div>
                             <div class="card-footer pd-tpn">

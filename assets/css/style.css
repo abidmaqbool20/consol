@@ -308,10 +308,10 @@ textarea.form-control {height: auto;}
 [7. Sidebar]
 */
 
-.sidebar{top:60px;width:240px;z-index:1041;background-color: #2a2a4d;bottom:0;margin-top:0px;position:fixed;left:0;-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; transition: all 0.4s ease;border-right: 1px solid #2d2d2d;}
+.sidebar{top:60px;width:220px;z-index:1041;background-color: #2a2a4d;bottom:0;margin-top:0px;position:fixed;left:0;-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; transition: all 0.4s ease;border-right: 1px solid #2d2d2d;}
 .sidebar-inner{height:100%;}
 .sidebar-menu ul {font-size: 14px;list-style-type: none;margin: 0;padding: 0;position:relative;}
-.sidebar-menu li a {color: #888;display: block;font-size: 14px;height: auto;line-height: 40px;min-height: 40px;padding: 0 20px;}
+.sidebar-menu li a {color: #888;display: block;font-size: 14px;height: auto;line-height: 40px;min-height: 40px;padding: 0 10px;}
 .sidebar-menu li a:hover {color:#ffbc35;}
 .sidebar-menu li a > .badge {margin-top: 10px;color: #fff;font-weight: 700;}
 .sidebar-menu li a i {font-size: 16px;margin-left: 10px;margin-right: 10px;}
@@ -385,7 +385,7 @@ textarea.form-control {height: auto;}
 */
 
 .page-wrapper {left: 0;margin-left: 220px;padding-top: 60px;position: relative;-webkit-transition: all 0.4s ease;-moz-transition: all 0.4s ease;transition: all 0.4s ease;}
-.page-wrapper > .content{padding:0px 0px 10px 0 !important;}
+.page-wrapper > .content{padding:0px 0px 0px 0 !important;}
 
 /*------------------------------------------------------------------
 [9. Login]
@@ -526,10 +526,13 @@ textarea.form-control {height: auto;}
 .panel-title {
     font-size: 16px !important;
 }
-.tabcontent > thead > th, td{
+.tabcontent > thead > tr> th ,td {
     text-align: center;
-    padding: 5px 20px !important;
-
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.btn.focus, .btn:focus {
+  box-shadow: none !important;
 }
 .filteroptions  {
     line-height: 30px;
@@ -545,7 +548,9 @@ textarea.form-control {height: auto;}
 .txtfltrclr {
  color:  #daba2a !important;
 }
-
+.pd-tpn {
+  padding: 10px 10px 0 10px !important;
+}
 .pr-0 {
     padding-right: 0 !important;
 }
@@ -558,28 +563,48 @@ textarea.form-control {height: auto;}
 .pd-0 {
     padding: 0 !important;
 }
+.hghtauto {
+height: auto;
+}
+.pd-tp {
+  padding-top: 0px !important
+}
+
 /*Margin 0 */
 /*.r-p-0 {
     padding: 0 !important;
 }*/
 .fltrclr {
     background-color: #ffffff;
+  
+}
+.brdrclr {
     border-bottom: 1px solid #daba2a;
+}
+.allbrdr {
+   border: 1px solid #daba2a
 }
 .pd-n{
     padding: 0 10px 0 20px;
 }
-.pd-tp {
-    padding: 10px 0 10px 0;
-}
+
 .fltrdiv {
     display: none;
 }
 
 
+.norec {
+  float:none;
+    display:inline-block;
+    vertical-align:middle;
+
+}
 
 
-
+/*.norec img {
+   vertical-align: middle;
+}
+*/
 
 
 
@@ -1715,7 +1740,7 @@ blockquote p {font-style: italic;font-weight: 400;}
 @media only screen and (min-width: 768px) {
 	.modal-backdrop.custom-backdrop.in {background-color: transparent;left: 220px;opacity: 1;}
 	.modal-open .modal.custom-modal {left: 220px;}
-	.custom-modal .modal-content {border: 0 none;box-shadow: inherit;margin: 0 auto;background-color: transparent;padding: 30px 0;width:600px;}
+	.custom-modal .modal-content {border: 0 none;box-shadow: inherit;margin: 0 auto;background-color: transparent;padding: 30px;}
 	.custom-modal .modal-title {margin-bottom: 20px;}
 	.custom-modal .modal-body.card-box {padding:15px;}
 	.custom-modal .modal-body {padding:0;}

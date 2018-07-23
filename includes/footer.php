@@ -21,12 +21,146 @@
  <div id="mymodal1" class="modal custom-modal fade" role="dialog">
             <div class="modal-dialog">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <div class="modal-content modal-lg">
+                <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title">Add Employee</h4>
+                        <h4 class="modal-title">Add Organization</h4>
                     </div>
                     <div class="modal-body">
-                        <form class="m-b-30">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form action="#">
+                                        <div class="card-box allbrdr">
+                                            <div class="row">
+                                                 <div class="col-md-6">
+                                                    <h4 class="card-title">Company/Organization details:</h4>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Company Name:</label>
+                                                        <div class="col-lg-9">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <input type="text" placeholder="Company Name" class="form-control">
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input type="text" placeholder="Organization ID" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Email:</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" class="form-control" placeholder="Company Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Phone:</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" class="form-control" placeholder="Phone #">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Address:</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" class="form-control m-b-20" placeholder="Address">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class=" m-b-20">
+                                                                        <select class="select">
+                                                                            <option>Select Country</option>
+                                                                            <option value="1">USA</option>
+                                                                            <option value="2">France</option>
+                                                                            <option value="3">India</option>
+                                                                            <option value="4">Spain</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <input type="text" placeholder="ZIP code" class="form-control">
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input type="text" placeholder="State/Province" class="form-control m-b-20">
+                                                                    <input type="text" placeholder="City" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                     <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Logo:</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="file" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                     <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Services Domain:</label>
+                                                        <div class="col-lg-9">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <input type="text" placeholder="Services Domain" class="form-control">
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input type="text" placeholder="NTN #" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h4 class="card-title">Contact Person: </h4>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Name:</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" class="form-control" placeholder="Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Email :</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="email" class="form-control" placeholder="Email Contact Person">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Mobile number:</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" class="form-control" placeholder="Mobile Number">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">Password:</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="password" class="form-control" placeholder="Password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">State:</label>
+                                                        <div class="col-lg-9">
+                                                            <select class="select">
+                                                                <option>Select State</option>
+                                                                <option value="1">California</option>
+                                                                <option value="2">Texas</option>
+                                                                <option value="3">Florida</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 col-form-label">About:</label>
+                                                        <div class="col-lg-9">
+                                                            <textarea rows="5" cols="5" class="form-control" placeholder="Enter message"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+                                            <div class="text-right">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </form>
+
+
+
+                        <!-- <form class="m-b-30">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -292,7 +426,7 @@
                             <div class="m-t-20 text-center">
                                 <button class="btn btn-primary btn-lg">Create Employee</button>
                             </div>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>

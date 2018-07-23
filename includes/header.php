@@ -158,8 +158,8 @@
                         <li>
                             <a href="manageorganizations.php"><i class="fa fa-comments" aria-hidden="true"></i> Manage Organizations </a>
                         </li>
-                        <li class="submenu">
-                            <a href="#"><i class="fa fa-video-camera camera" aria-hidden="true"></i>  Manage Roles </a>
+                        <li>
+                            <a href="manageroles.php"><i class="fa fa-video-camera camera" aria-hidden="true"></i>  Manage Roles </a>
                          
                         </li>
                         <li class="submenu">
